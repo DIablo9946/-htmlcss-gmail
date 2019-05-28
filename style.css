@@ -1,0 +1,55 @@
+body {
+    background : url(icon/back.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#logo {
+    width: 120px;
+    
+}
+
+
+
+.forma {
+    background-color: darkgray;
+    margin-bottom: 1px;
+    border: solid black 2px;
+}
+
+#general {
+    margin: auto;
+    width: 60%;
+}
+
+.special {
+    background-color: white;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 23px;
+}
+
+#check{
+    background-color: coral;
+    border-radius: 50%;
+}
+
+.add {
+    color: gray;
+}
+
+footer h1, 
+footer h4 {
+    color: blue;
+    display: inline;
+
+}
+
+footer {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}

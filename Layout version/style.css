@@ -1,0 +1,96 @@
+body {
+    background : url(icon/back.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#logo {
+    width: 120px;
+    
+}
+
+
+
+.forma {
+    background-color: darkgray;
+    margin-bottom: 1px;
+    border: solid black 2px;
+}
+
+#general {
+    margin: auto;
+    width: 60%;
+}
+
+.special {
+    background-color: white;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 23px;
+}
+
+#check{
+    background-color: coral;
+    border-radius: 50%;
+}
+
+.add {
+    color: gray;
+}
+
+footer h1, 
+footer h4 {
+    color: blue;
+    display: inline;
+
+}
+
+footer {
+    margin: 10px auto;
+    width: 50%;
+    text-align: center;
+}
+
+
+#star-five {
+    margin: 0px 0;
+    position: relative;
+    display: block;
+    color: black;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid black;
+    border-left: 10px solid transparent;
+    transform: rotate(35deg);
+  }
+  #star-five:before {
+    border-bottom: 8px solid black;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -4.5px;
+    left: -6.5px;
+    display: block;
+    content: '';
+    transform: rotate(-35deg);
+  }
+  #star-five:after {
+    position: absolute;
+    display: block;
+    color: black;
+    top: 0.3px;
+    left: -10.5px;
+    width: 0px;
+    height: 0px;
+    border-right: 10px solid transparent;
+    border-bottom: 7px solid black;
+    border-left: 10px solid transparent;
+    transform: rotate(-70deg);
+    content: '';
+  }
